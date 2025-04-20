@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum-simulator"
+version = "0.1.0"
+description = "A basic simulator for quantum circuits: superdense coding, teleportation, and more"
+authors = [
+  { name="Satya Panda", email="spanda202020@gmail.com" }
+]
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+requires-python = ">=3.7"
