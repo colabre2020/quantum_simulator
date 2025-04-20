@@ -23,10 +23,10 @@ quantum_simulator/ ├── gates.py # Core quantum gates ├── register.py
 ## Installation
 To install the package, clone the repository and install dependencies:
 
-# bash''' Run the teleportation demo
+Run the teleportation demo
 python -m quantum_simulator.teleportation
 
-# Run the superdense coding demo
+Run the superdense coding demo
 python -m quantum_simulator.superdense
 
 ## Requirements
